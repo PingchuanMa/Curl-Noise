@@ -103,8 +103,8 @@ int main(int argc, char **argv)
    glutTimerFunc(int(1000*display_timestep), timer, 0);
 
    //example=new Example2DMouse();
-   example=new Example2DWake();
-   //example=new Example2DFancy();
+   //example=new Example2DWake();
+   example=new Example2DFancy();
 
    example->seed_particles(xtrace[0], simulation_timestep);
 
